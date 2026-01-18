@@ -1,6 +1,6 @@
 # 🌍 World Travel
 
-Site de turismo desenvolvido como projeto prático de um curso de desenvolvimento web, com foco em HTML e CSS.
+Site de turismo desenvolvido como projeto prático do curso SENAI DEVstart, com foco em HTML e CSS.
 
 O objetivo do projeto é criar uma página moderna, responsiva e visualmente agradável para apresentar destinos turísticos e informações para viajantes.
 
