@@ -21,7 +21,7 @@ O objetivo do projeto é criar uma página moderna, responsiva e visualmente agr
 ## 🛠️ Tecnologias utilizadas
 
 - HTML5
-- CSS3 (Flexbox e Media Queries)
+- CSS3 (Media Queries)
 
 ---
 
