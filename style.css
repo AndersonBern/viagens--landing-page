@@ -1,0 +1,142 @@
+:root {
+    --cor-1: #061D3D;
+    --cor-2: #5C9AF2;
+    --cor-3: #60A0F0;
+    --cor-4: #BBD8FA;
+}
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: var(--cor-1);
+}
+body{
+    background: linear-gradient(var(--cor-2), var(--cor-4));
+}
+
+header {
+    background-color: var(--cor-1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.794);
+    padding: 10px;
+}
+
+#logo-head{
+    max-width: 700px;
+    height: 200px;
+    background-image: url(src/logo.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    color: var(--cor-1);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.509);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2, h3{
+    padding: 30px;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.509);
+}
+
+#banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(src/img-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.conteudo {
+    text-align: justify;
+    padding: 30px 30px;
+}
+
+img{
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: var(--cor-1);
+}
+footer p{
+    color: var(--cor-4);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--cor-1);
+    padding: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu a {
+    color: var(--cor-4);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    background-color: var(--cor-4);
+    color: var(--cor-1);
+    border-radius: 10px;
+}
+
+.divider-center {
+    width: 100%;
+    height: 4px;
+    background-color: var(--cor-1);
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+#btnTopo {
+    margin-left: 85%;
+    margin-bottom: 5px;
+    padding: 12px 16px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--cor-2);
+    color: white;
+    cursor: pointer;
+    display: block;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    z-index: 999;
+}
+#btnTopo a{
+    text-decoration: none;
+    color: var(--cor-1);
+}
+
+#btnTopo:hover {
+    background-color: var(--cor-4);
+    transform: translateY(-3px);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.55);
+}
+
+@media (min-width: 480px) {
+    img {
+        width: 95%;
+    }
+}
